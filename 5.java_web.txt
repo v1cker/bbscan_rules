@@ -59,3 +59,6 @@
 
 # Druid Monitor监控系统未授权访问
 /druid/index.html    {status=200}     {tag="Druid Stat Index</title>"}    {type="html"}
+
+# Jenkins 对外
+/login    {status=200}     {tag="Jenkins</title>"}    {type="html"}
